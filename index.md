@@ -100,3 +100,4 @@ Use a password manager, protect the data and the datastore as well as the device
   -  SMS is not recommended due to the range of attacks like SIM swapping, Social Engineering, and lack of transport security on SMS which are sent unencrypted and are fairly easy for a nation state to gain access to
   -  Password managers will generate TOTP codes for you which makes them easy to enter and allows a streamlined backup strategy for these credentials
   -  If you use a hardware token, enroll two in case you lose the first one!
+  -  If one of your accounts is ever compromised, or you want to be extra careful, make sure no backup authentication devices have been added, forwarding addresses (like for email), or account information has bene changed - attackers will use these methods to leave themselves a backdoor into your accounts even if you change the password!

@@ -1,4 +1,4 @@
-# iOS Security Recommondations
+# iOS Security Recommendations
 
 ### General iOS Settings
 - **Update device to the latest iOS**
@@ -28,7 +28,7 @@
 
 
 ### Check your call forwarding
-While not exhaustive, some basic checks can help you catch low-sophistication forwarding attacks
+While not exhaustive, some basic checks you can run to help you catch low-sophistication forwarding attacks:
 [Codes to Check If Your Phone Is Tapped](https://clario.co/blog/code-to-check-if-phone-is-hacked/)
 
 

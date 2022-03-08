@@ -11,7 +11,7 @@ From Microsoft's own [security documentation](https://docs.microsoft.com/en-us/w
 
 
 ## Start Fresh
-The best thing to do is start from the bare hardware and install Windows 10 from scratch with UEFI, TPM, and SecureBoot turned on. If you don't want to do that, skip to Section B. Any retail computer purchased with Windows 8.1 will already have these turned on.
+The best thing to do is start from the bare hardware and install Windows 10 from scratch with UEFI, TPM, and SecureBoot turned on. If you don't want to do that, skip this section.
 
 1. Update BIOS
    - For best compatibility and security you should update your computer's BIOS. A modern BIOS (really UEFI) is a full operating system that runs below and at the same time as Windows, and needs patches too! People who built computers in the early 2000's will tell you BIOS updates are risky - and they were - but not anymore. These updates deliver fixes, features, and security updates you won't ever hear on the news.
@@ -23,12 +23,12 @@ The best thing to do is start from the bare hardware and install Windows 10 from
 2. Prepare Windows Bootable Media
    - To get ready to install Windows 10 64 bit on the bare hardware, use Microsoft's Media Creation Tool to create a bootable DVD or USB stick.
 
-   - Make sure everything is backed up before proceeding. The following changes will wipe your Windows installation.
+   - Make sure everything is [backed up](backups.md) before proceeding. The following changes will wipe your Windows installation.
 
 3. Configure BIOS
     > **This part is important and something few guides discuss.**
 
-   - From the boot of your computer, press the setup hotkey. It may be F1, F2, F8, F10, Del, or something else to get into SETUP mode. Again, **BACKUP YOUR DATA**.
+   - From the boot of your computer, press the setup hotkey. It may be F1, F2, F8, F10, Del, or something else to get into SETUP mode. Again, **[BACKUP YOUR DATA](backups.md)**.
 
    - In the BIOS:
 
@@ -46,23 +46,23 @@ The best thing to do is start from the bare hardware and install Windows 10 from
 
      - Save settings and shut down.
 
- 1. Install Windows 10
+ 4. Install Windows 10
     - Insert your DVD/USB. Boot the computer and use the boot menu hotkey to boot to your UEFI DVD or UEFI USB. The hotkey is often F10 or F12. Search the web or manufactuer's documentation if you can’t figure out how to get to the boot menu.
 
     - Follow the prompts and install Windows. If it gives you an option of where to install Windows to, and there's already a partition, delete the partition first.
 
 
-4. Update Windows 10
+5. Update Windows 10
    - In Start > Settings > Update, continue updating and rebooting Windows until there's nothing left to update. Wait until this is done before intalling anything else. 
 
-5. Set UAC to full
+6. Set UAC to full
     > User Account Control (UAC) is a fundamental component of Microsoft's overall security vision. UAC helps mitigate the impact of malware. Each app that requires the administrator access token must prompt for consent. The one exception is the relationship that exists between parent and child processes.
 
     - This means if a piece of malware attempts to use administrative priveleges to do something nasty, it has to prompt for consent. Ther are bypasses, but its still smarter to turn it on than be nihilistic about it.
   
    - Follow [these instructions](https://www.tenforums.com/tutorials/3577-change-user-account-control-uac-settings-windows-10-a.html) to set UAC to the highest option, "Always notify me." Anything less allows any malware to instantly elevate to administrator level permissions. UAC isn't magic, but it's a layer you want to use.
 
-6. Enable Drive Encryption
+7. Enable Drive Encryption
    - If you have Windows 10 Home:
 
       - Start > Settings > System > About
