@@ -102,7 +102,7 @@ Again, Firefox is a great choice for a browser. You should ensure you’re using
 
   - uBlock Origin is a fast, effective, and reputable “ad-blocking” software
 
-Other Software
+## Other Software
 - Adobe Reader DC
     - Adobe Reader is pretty safe if you have the full suite of security settings turned on. In the case of Adobe Reader DC, there's just one setting you need to change:
       - Edit > Preferences > Security (Enhanced) > Protected View > Files from potentially unsafe locations
@@ -110,10 +110,15 @@ Other Software
 - Microsoft Office
   - Follow this [guide](https://www.gpetrium.com/increase-ms-security/) for reducing the attack surface of Microsoft Office
 
-
 - General Recommendations
   - Don't install random software from unknown vendors
   - Don't install games, browser plugins, or any other add-ons you aren't familiar with (if in doubt ask a professional)
   - If software is "free", your data is likely the cost
   - Don't steal software, pirated software invariably has a virus
   - Don't click links or open documents you aren't expecting, even if they are from someone you recognize - email can be spoofed and accounts compromised
+
+
+## More Settings
+- I'd like to get deeper into the weeds on things to configure like disabling like the Guest Account, LLMNR, NETBIOS, SMBv1/v2 - but, this is a huge task (300+ controls) requiring a more complex explanation of why and guides on how, so this will have to do for now
+    - Most of these settings are included in the Microsoft Security Baselines available [here](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
+- To protect against some password brute-forcing attacks, ensure your password is long (13+ chars) and complex
