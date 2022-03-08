@@ -31,7 +31,6 @@
 While not exhaustive, some basic checks can help you catch low-sophistication forwarding attacks
 [Codes to Check If Your Phone Is Tapped](https://clario.co/blog/code-to-check-if-phone-is-hacked/)
 
-## Step-by-Step Instructions
 
 ### Encrypted DNS
 By default, DNS is sent over a plaintext connection. DNS over TLS (DoT) is one way to send DNS queries over an encrypted connection. With DoT, the encryption happens at the transport layer, where it adds TLS encryption on top of the user datagram protocol (UDP).

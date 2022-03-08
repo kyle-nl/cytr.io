@@ -55,23 +55,22 @@ For the security enthusiast, who wants to go the extra mile.
   - For visibility and control about the traffic leaving your system.
   - Install Little Snitch (paid) or LuLu (open-source)
 
-- Use DNS encryption with malicious domain filtering
+- Use [DNS encryption](macos.md#encrypted-dns) with malicious domain filtering
   - Mitigates potential DNS poisoning
   - Using a filtered DNS provider removes known-malicious domains as an additional layer of protection
+  - Details instructions [below](macos.md#encrypted-dns)
 
 - Run an outbound network firewall
   - For visibility and control about the traffic leaving your system.
   - Install Little Snitch (paid) or LuLu (open-source)
 
 
-#### Additional Tools
+### Additional Tools
 - Objective See Tools - Patrick Wardle, a pioneer in Mac security, offers a wealth of free tools to improve your Mac's security. If you would like further assurance or awareness of what is going on behind the scenes of your Mac, you can trust his tools. Availble at the [Objective-See](https://objective-see.com/products.html) website.
 
 - Google's [Santa](https://github.com/google/santa) Project
     > Santa is a binary authorization system for macOS. It consists of a system or kernel extension (depending on the macOS version) that monitors for executions, a daemon that makes execution decisions based on the contents of a local database, a GUI agent that notifies the user in case of a block decision and a command-line utility for managing the system and synchronizing the database with a server.
 
-
-## Step-by-Step Instructions
 
 ### Encrypted DNS
 By default, DNS is sent over a plaintext connection. DNS over TLS (DoT) is one way to send DNS queries over an encrypted connection. With DoT, the encryption happens at the transport layer, where it adds TLS encryption on top of the user datagram protocol (UDP).
