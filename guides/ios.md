@@ -1,24 +1,24 @@
 # iOS Security Recommondations
 
 ### General iOS Settings
-- [] Update device to the latest iOS
+- [ ] Update device to the latest iOS
   - Ensuring the device is up to date keeps known vulnerablities from being exploited.
-- [] Require a complex passcode
+- [ ] Require a complex passcode
   - Complex passcodes prevent other users from accessing your device, features like FaceID & TouchID reduce the burden for users in entering these passcodes.
-- [] Set auto-lock timeout 
+- [ ] Set auto-lock timeout 
   - This ensures the device locks when not being used
-- [] Disable grace period
+- [ ] Disable grace period
   - This feature ensures the device locks during the 
-- [] Set the device to erase data upon excessive passcode failures
-- [] Ensure Data Protection is Enabled
-- [] Turn off “Ask to Join Networks”
-- [] Forget unused Wi-Fi networks
-- [] Enable remote wipe functionality 
-- [] Check your device name so it is not personally identifiable (shows up in Bluetooth and AirDrop advertisements)
+- [ ] Set the device to erase data upon excessive passcode failures
+- [ ] Ensure Data Protection is Enabled
+- [ ] Turn off “Ask to Join Networks”
+- [ ] Forget unused Wi-Fi networks
+- [ ] Enable remote wipe functionality 
+- [ ] Check your device name so it is not personally identifiable (shows up in Bluetooth and AirDrop advertisements)
 
 ### Privacy Enhancements
-- [] [Use encrypted DNS (iOS 14 and newer)](#encrypted-dns)
-- [] Use full VPN Service
+- [ ] [Use encrypted DNS (iOS 14 and newer)](#encrypted-dns)
+- [ ] Use full VPN Service
 
 
 ### Check your call forwarding

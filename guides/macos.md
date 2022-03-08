@@ -1,45 +1,45 @@
 # MacOS
 
-- [] Consider installing a fresh copy of macOS
+- [ ] Consider installing a fresh copy of macOS
     - Optionally, start clean, avoid previous misconfigurations
     - Follow [this](https://support.apple.com/en-us/HT204904) Apple Support guide
     - This step cannot be undone!
   
-- [] Install all Apple Software Updates
-  - [] Enable automatic software updates (recommended)
+- [ ] Install all Apple Software Updates
+  - [ ] Enable automatic software updates (recommended)
     - Go to System Preferences > Software Update > Advanced, check all.
 
-- [] Enable password-protected sleep
+- [ ] Enable password-protected sleep
   - Go to System Preferences > Security & Privacy > General, check “Require password 5 seconds after sleep or screen saver begins”.
 
-- [] Forbid unsigned software
+- [ ] Forbid unsigned software
   - Go to System Preferences > Security & Privacy > General, select “Allow apps downloaded from App Store and identified developers” at most.
 
-- [] Disable guest user access
+- [ ] Disable guest user access
   - Go to System Preferences > Users & Groups > Guest User, uncheck all.
 
-- [] Enable disk encryption
+- [ ] Enable disk encryption
   - Go to System Preferences > Security & Privacy > FileVault, if disabled, click “Turn On FileVault” and follow the procedure.
 
-- [] Enable the inbound network firewall
+- [ ] Enable the inbound network firewall
   - Go to System Preferences > Security & Privacy > Firewall, if disabled, click “Turn On Firewall”.
 
-- [] Disable network services
+- [ ] Disable network services
   - Go to System Preferences > Sharing, uncheck all.
 
-- [] Disable unnecessary application access
+- [ ] Disable unnecessary application access
   - Go to System Preferences > Security & Privacy > Privacy > Location Services, uncheck all unnecessary access. Repeat these steps for other permissions like Microphone, Input Monitoring, Full Disk Access and Screen Recording access as well.
 
-- [] Prevent Safari from opening downloads automatically
+- [ ] Prevent Safari from opening downloads automatically
   - Go to Safari > Preferences > General, uncheck “Open safe files after downloading”.
 
-- [] Show all filename extensions
+- [ ] Show all filename extensions
   - Go to Finder > Preferences > Advanced, check “Show all filename extensions”.
 
-- [] Disable radios when unused
+- [ ] Disable radios when unused
   - When not in use, disable Wi-Fi and/or Bluetooth
 
-- [] Check your computer name and maybe change
+- [ ] Check your computer name and maybe change
   - Go to System Preferences > Sharing, Computer Name - if your computer name includes personally identifiable information, consider changing it
 
 
@@ -47,19 +47,19 @@
 For the security enthusiast, who wants to go the extra mile.
 
 
-- [] Consider the risks of browser extensions
+- [ ] Consider the risks of browser extensions
   - Browser extensions such as adblockers or grammar checkers require full read-write access to everything you do on the web. Yes, this includes your passwords. This is not malicious per se, but is the reward worth the risk?
   - Go through your browser’s installed extensions and assess their value to you, and whether the risk trade-off is worth it or not
 
-- [] Run an outbound network firewall
+- [ ] Run an outbound network firewall
   - For visibility and control about the traffic leaving your system.
   - Install Little Snitch (paid) or LuLu (open-source)
 
-- [] Use DNS encryption with malicious domain filtering
+- [ ] Use DNS encryption with malicious domain filtering
   - Mitigates potential DNS poisoning
   - Using a filtered DNS provider removes known-malicious domains as an additional layer of protection
 
-- [] Run an outbound network firewall
+- [ ] Run an outbound network firewall
   - For visibility and control about the traffic leaving your system.
   - Install Little Snitch (paid) or LuLu (open-source)
 
