@@ -2,7 +2,7 @@
 
 - Consider installing a fresh copy of macOS
     - Optionally, start clean, avoid previous misconfigurations
-    - Follow [this](https://support.apple.com/en-us/HT204904) Apple Support guide
+    - Instructions available using [this](https://support.apple.com/en-us/HT204904) Apple Support guide
     - This step cannot be undone!
   
 - Install all Apple Software Updates
