@@ -4,7 +4,7 @@ For less tech-savy users it can be hard to know where to start to get a good sec
 
 **Some of the jargon is defined [here](terms.md)**
 
-These guides are not meant to be complete, but a start to implementing stronger security for your devices. The recommendations will change over time, and without updates, will become stale. Please file PRs as needed.
+These guides are not meant to be complete, but a start to implementing stronger security for your devices. The recommendations will change over time, and without updates, will become stale. Please file PRs as needed. [GitHub Link](https://github.com/kyle-nl/cytr.io/)
 
 # Why should I trust you?
 Thats a good start, you shouldn't trust these guides alone - do your own research but make sure its from knowlegable sources. Random internet guides are not always deeply knowlegable on modern attacks or up to date. The authors of these guides have worked in the infosec community for over a decade in various roles from defensive security to offensive security and have tried to distill the most high value recommendations 
