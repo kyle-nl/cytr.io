@@ -35,7 +35,7 @@ Privacy includes not just data encryption, but anonymity both in who you are and
 Signal and Wickr are both designed from the ground up with security in mind, and therefore we can recommend using either of these apps; they both come with caveats to use them more securely, here we will discuss some of these
  - To use Signal you must have an active cell phone contract and be able to receive an unsecure SMS
  - To use the Signal desktop app, Signal must first be installed on your phone, this limits usablity to having a working phone and cellular network, and be able to recieve an unsecured SMS to set up the account
- - Be aware that the Signal risk model doesn't seem to include a device being confiscated, see this [DoD bulletin](https://content.govdelivery.com/accounts/USDODDC3/bulletins/2e03518) which describes the problems they identified
+ - Be aware that the Signal risk model is targeted more at network eavesdropping than your device being confiscated, see this [DoD bulletin](https://content.govdelivery.com/accounts/USDODDC3/bulletins/2e03518) which describes the problems they identified
    - Moxie, Signal's brilliant founder, has a related [blog post](https://signal.org/blog/cellebrite-and-clickbait/) which describes their risk model and explains how Signal accomodates users with an elevated risk model. Users should still be be **aware** of these assumptions.
 
      > If you are concerned about a situation where someone else might end up physically holding your device with the screen unlocked in their hands, Signal can still help. Features like [disappearing messages](https://signal.org/blog/disappearing-by-default/) and view-once media messages allow you to communicate more ephemerally and keep your conversations tidy.
