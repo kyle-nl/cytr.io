@@ -14,12 +14,10 @@ Thats a good start, you shouldn't trust these guides alone - do your own researc
 No matter which platform you use, keep your devices backed up in a secure fashion so others can't access the data, and be aware of how to wipe your device if you are concerned for your safety or the safety of others if the data on the device were to be exposed.
 
 ## Mobile ##
-[![iOS](icons/406080_apple_ios_ipad_round_icon.png)](guides/ios.md)  [![Android](icons/1269841_android_google_material_mobile_os_icon.png)](guides/android.md)
-
-[iOS](guides/ios.md)
+[![iOS](icons/406080_apple_ios_ipad_round_icon.png)](guides/ios.html)  [![Android](icons/1269841_android_google_material_mobile_os_icon.png)](guides/android.html)
 
 ## Desktop ##
-[![macOS](icons/652586_apple_ios_mac_os_platform_icon.png)](guides/macos.md) [![Windows](icons/1296843_metro_microsoft_os_pc_system_icon.png)](guides/windows.md)
+[![macOS](icons/652586_apple_ios_mac_os_platform_icon.png)](guides/macos.html) [![Windows](icons/1296843_metro_microsoft_os_pc_system_icon.png)](guides/windows.html)
 
 ## Communication Privacy ##
 Privacy includes not just data encryption, but anonymity both in who you are and who you are communicating with and when. We reccomend both Signal and Wickr (comparison below). There may be others that work well, but we haven't tested or evaluated them. See below for why you should stick to these apps. They both support all the major platforms.
