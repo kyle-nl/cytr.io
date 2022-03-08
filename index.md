@@ -10,10 +10,8 @@ These guides are not meant to be complete, but a start to implementing stronger 
 Thats a good start, you shouldn't trust these guides alone - do your own research but make sure its from knowlegable sources. Random internet guides are not always deeply knowlegable on modern attacks or up to date. The authors of these guides have worked in the infosec community for over a decade in various roles from defensive security to offensive security and have tried to distill the most high value recommendations 
 
 
-# General Recommendations
-Keep your devices backed up in a secure fashion so others can't access the data, and be aware of how to wipe your device if you are concerned for your safety or the safety of others if the data on the device were to be exposed.
-
 # Security Recommendations by Platform
+No matter which platform you use, keep your devices backed up in a secure fashion so others can't access the data, and be aware of how to wipe your device if you are concerned for your safety or the safety of others if the data on the device were to be exposed.
 
 ## Mobile ##
 [![iOS](icons/406080_apple_ios_ipad_round_icon.png)](guides/ios.md)  [![Android](icons/1269841_android_google_material_mobile_os_icon.png)](guides/android.md)
