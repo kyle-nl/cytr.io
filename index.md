@@ -1,3 +1,13 @@
+# Information Security Configuration Recommendations
+
+For less tech-savy users it can be hard to know where to start to get a good security baseline set for your devices. These guides are an attempt to cover the basics for all the major platforms without getting too deep into the weeds of the technical jargon. 
+
+**Some of the jargon is defined [here](terms.md)**
+
+# Why should I trust you?
+Thats a good start, you shouldn't trust these guides alone - do your own research but make sure its from knowlegable sources. Random internet guides are not always deeply knowlegable on modern attacks or up to date. The authors of these guides have worked in the infosec community for over a decade in various roles from defensive security to offensive security and have tried to distill the most high value recommendataions 
+
+
 # General Recommendations
 Keep your devices backed up in a secure fashion so others can't access the data, and be aware of how to wipe your device if you are concerned for your safety or the safety of others if the data on the device were to be exposed.
 
@@ -29,7 +39,7 @@ Signal and Wickr are both designed from the ground up with security in mind, and
  - To use Signal you must have an active cell phone contract and be able to receive an unsecure SMS
  - To use the Signal desktop app, Signal must first be installed on your phone, this limits usablity to having a working phone and cellular network, and be able to recieve an unsecured SMS to set up the account
  - Be aware that the Signal risk model doesn't seem to include a device being confiscated, see this [DoD bulletin](https://content.govdelivery.com/accounts/USDODDC3/bulletins/2e03518) which describes the problems they identified
-   - Moxie has a related [blog post](https://signal.org/blog/cellebrite-and-clickbait/) which describes their risk model and explains how Signal accomodates users with an elevated risk model. Users should still be be **aware** of these assumptions.
+   - Moxie, Signal's brilliant founder, has a related [blog post](https://signal.org/blog/cellebrite-and-clickbait/) which describes their risk model and explains how Signal accomodates users with an elevated risk model. Users should still be be **aware** of these assumptions.
 
      > If you are concerned about a situation where someone else might end up physically holding your device with the screen unlocked in their hands, Signal can still help. Features like [disappearing messages](https://signal.org/blog/disappearing-by-default/) and view-once media messages allow you to communicate more ephemerally and keep your conversations tidy.
 - Wickr tends to be configured for an increased risk model by default, to include automatically disappearing messages which is one reason we prefer it; Wickr also doesn't require a cellular contract or leverage unsecure SMS for account setup; it doesn't require you have a phone at all which makes it more usable for more people
