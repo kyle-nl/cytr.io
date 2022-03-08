@@ -5,7 +5,7 @@ For less tech-savy users it can be hard to know where to start to get a good sec
 **Some of the jargon is defined [here](terms.md)**
 
 # Why should I trust you?
-Thats a good start, you shouldn't trust these guides alone - do your own research but make sure its from knowlegable sources. Random internet guides are not always deeply knowlegable on modern attacks or up to date. The authors of these guides have worked in the infosec community for over a decade in various roles from defensive security to offensive security and have tried to distill the most high value recommendataions 
+Thats a good start, you shouldn't trust these guides alone - do your own research but make sure its from knowlegable sources. Random internet guides are not always deeply knowlegable on modern attacks or up to date. The authors of these guides have worked in the infosec community for over a decade in various roles from defensive security to offensive security and have tried to distill the most high value recommendations 
 
 
 # General Recommendations
